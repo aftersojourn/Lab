@@ -188,6 +188,7 @@ header {
     height: 100vh;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -355,3 +356,14 @@ header {
     margin-bottom: 5px;   
 }
 
+/* ------------------------------------------------------------------ */
+/* TESTIMONIALS */
+/* ------------------------------------------------------------------ */
+
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(/lab/myOmniFood/resources/img/back-customers.jpg);
+    background-size: cover;
+    color: white;
+    /*cool css trick to keep the image in place*/
+    background-attachment: fixed;
+}
