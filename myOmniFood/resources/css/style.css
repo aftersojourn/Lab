@@ -494,3 +494,81 @@ textarea {
 input[type=checkbox]{
     margin: 10px 5px 10px 0; /*centering the text with the elements, not the best way but ill figure it out*/
 }
+
+/* ------------------------------------------------------------------ */
+/* FOOTER */
+/* ------------------------------------------------------------------ */
+
+footer {
+    background-color: rgb(88, 85, 85);
+    padding: 20px;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social li:last-child {
+    margin-right: 0;
+}
+
+footer p {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social {
+    list-style: none;
+    float: right;
+}
+
+.social li a:link,
+.social li a:visited {
+    font-size: 160%;
+}
+
+.ion-social-facebook-outline:hover,
+.ion-social-facebook-outline:active {
+    color: #3b5998
+}
+.ion-social-twitter-outline:hover,
+.ion-social-twitter-outline:active {
+    color: #00aced
+}
+.ion-social-instagram-outline:hover,
+.ion-social-instagram-outline:active {
+    color: #e95950
+}
+.ion-social-googleplus-outline,
+.ion-social-googleplus-outline {
+    color: #dd4b39
+}
+
+
+/** factoring
+.footer-nav li,
+.social li {
+}
+**/
+
+footer li a:link,
+footer li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: black;
+    transition: color .2s;
+}
+
+footer li a:hover,
+footer li a:active {
+    color: rgb(112, 111, 111);
+}
+
