@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+*:focus {
+    outline: none; /*chrome fix to remove blue focus highlights*/
+}
+
 html {
     background-color: #fff;
     color: #555;
@@ -139,7 +143,8 @@ a:active {
 
 /* BUTTONS */ 
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300px;
@@ -149,7 +154,8 @@ a:active {
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit] {
     background-color: #e67e22;
     color: #fff;
     border: 1px solid #e67e22;
@@ -163,12 +169,15 @@ a:active {
 }
 
 .btn:hover,
-.btn:active {
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
     background-color: #bf6516;
 }
 
 .btn-full:hover,
-.btn-full:active {
+.btn-full:active,
+input[type=submit] {
     border: 1px solid #bf6516;
 }
 
@@ -454,4 +463,34 @@ cite img {
 .plan-box div:last-child {
     text-align: center;
     border: 0;
+}
+
+/* ------------------------------------------------------------------ */
+/* FORM */
+/* ------------------------------------------------------------------ */
+
+.section-form {
+    background: white;
+}
+
+.contact-form {
+    /*border: 1px solid black; /*just to show where the form is atm*/
+    width: 60%; /*realized we dont need much width of the original*/
+    margin: 0 auto; /*again, y and x(will center form inside parent element)*/
+}
+
+/*notice element input where type is submit, it is affected. so to fix this, exclude input type submit by explicitly defining wheihc type of input element should be affected*/
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%; /*fill 100% of the width of the parent element*/
+    padding: 7px; /*looks good*/
+    border-radius: 3px;
+    border: 1px solid gray; /*eliminates the weird input border*/
+    /*to make the submit button look like the other full buttons, it must be included in the button section*/
+}
+
+input[type=checkbox]{
+    margin: 10px 5px 10px 0;
 }
