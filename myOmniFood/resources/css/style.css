@@ -194,7 +194,7 @@ input[type=submit] {
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
-    height: 100vh;
+    height: 100vh; /* view height 100% of the screen height*/
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -300,6 +300,10 @@ header {
 
 .section-steps {
     background-color: rgb(241, 241, 241);
+}
+
+.steps-box {
+    margin-top: 30px;
 }
 
 .steps-box:first-child {
@@ -519,6 +523,7 @@ footer p {
     text-align: center;
     margin-top: 10px;
 }
+
 
 .footer-nav {
     list-style: none;
