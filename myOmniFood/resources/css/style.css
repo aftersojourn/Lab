@@ -208,13 +208,19 @@ header {
     transform: translate(-50%,-50%);
 }
 
-.logo {
+.logo,
+.logo-black {
     height: 100px;
     width: auto;
     float: left;
     margin-top: 20px;
 }
+.logo-black {
+    /* hide it for now */
+    display: none;
+}
 
+/* Main Navi */
 .main-nav {
     float: right;
     list-style: none;
@@ -233,19 +239,41 @@ header {
 
 .main-nav li a:link, 
 .main-nav li a:visited {
+    padding: 8px 0;
     color: white;
     text-decoration: none; /*removes underline from link <a>*/
     text-transform: uppercase;
     font-size: 90%; /*90% of the base pixel defined in html. so we want 18px which is 90% of 20px*/
     border-bottom: 2px solid transparent;
-
 }
 
 .main-nav li a:hover, 
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
-    
 }
+
+/* Sticky Navi*/
+
+.sticky {
+    /* the element statys at the same point irrespective of scrolling */
+    position: fixed;
+    /* then define where it will start */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.829);
+}
+
+.sticky .main-nav li a:link, 
+.sticky .main-nav li a:visited {
+    padding: 8px 0;
+    color: white;
+}
+
+/* if logo is in sticky, hide. */
+.sticky .logo { display: none; }
+/* if black logo is in sticky, show */
+.sticky .logo-black { display: block; }
 
 /* ------------------------------------------------------------------ */
 /* FEATURES */
