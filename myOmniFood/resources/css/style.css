@@ -269,7 +269,7 @@ header {
     box-shadow: 0 10px 10px -6px rgb(134, 133, 133);
 }
 
-.main-nav { margin-top: 20px; }
+.sticky .main-nav { margin-top: 20px; }
 
 .sticky .main-nav li a:link, 
 .sticky .main-nav li a:visited {
@@ -409,7 +409,7 @@ header {
 /* ------------------------------------------------------------------ */
 
 .section-testimonials {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(/lab/myOmniFood/resources/img/back-customers.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(../img/back-customers.jpg);
     background-size: cover;
     color: white;
     /*cool css trick to keep the image in place*/
