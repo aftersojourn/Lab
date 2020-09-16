@@ -218,13 +218,17 @@ header {
 .logo-black {
     /* hide it for now */
     display: none;
+    height: 50px;
+    width: auto;
+    float: left;
+    margin-top: 5px;
 }
 
 /* Main Navi */
 .main-nav {
     float: right;
     list-style: none;
-    margin-top: 55px;
+    margin-top: 20px;
 }
 
 .main-nav li {
@@ -261,7 +265,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.829);
+    background-color: rgba(255, 255, 255, 0.897);
 }
 
 .sticky .main-nav li a:link, 
