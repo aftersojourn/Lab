@@ -1,6 +1,10 @@
 
 $(document).ready(function() {
-    /* Just A Test 
+   
+});
+
+ /* Just A Test */
+    /*
     $('h1').click(function() {
         $(this).css('background-color', '#ff0000')
     });
@@ -12,15 +16,14 @@ $(document).ready(function() {
     }, {
     offset: '25%'
     })
-*/
-
-    $('js--section-feature').waypoints(function(direction) {
+    */
+/*
+    $('js--section-feature').waypoint(function(direction) {
         if (direction == down) {
             $('nav').addClass('sticky');
         } else {
-
+            $('nav').removeClass('sticky');
         }
 
     })
-
-});
+*/
