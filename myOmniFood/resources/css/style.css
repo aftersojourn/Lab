@@ -271,7 +271,7 @@ header {
 .sticky .main-nav li a:link, 
 .sticky .main-nav li a:visited {
     padding: 8px 0;
-    color: white;
+    color: rgb(143, 131, 131);
 }
 
 /* if logo is in sticky, hide. */
