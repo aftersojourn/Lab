@@ -14,20 +14,18 @@ $(document).ready(function() {
             offset: '70px'   
           })
 
-    // Hero Text //
+    // Scroll to Buttons //
     $('.js--scroll-to-plans').click(function() {
         $('html, body').animate({
             scrollTop: $('.js--section-plans').offset().top
         }, 1500)
-
     })
 
-    /* Sample
-    $("button").click(function() {
-        $('html,body').animate({
-            scrollTop: $(".second").offset().top},
-            'slow');
-    });
-    */
+    $('.js--scroll-to-start').click(function() {
+        $('html, body').animate({
+            scrollTop: $('.js--section-feature').offset().top
+        }, 1500)
+    })
 
+    
 });
