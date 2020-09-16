@@ -266,7 +266,7 @@ header {
     left: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.945);
-    box-shadow: 0 10px 10px -6px rgba(68, 66, 66, 0);
+    box-shadow: 0 10px 10px -6px rgb(134, 133, 133);
     /* vertical stacking of elements. so below puts sticky on the topmost stack of the html*/
     z-index: 9999;
 }
