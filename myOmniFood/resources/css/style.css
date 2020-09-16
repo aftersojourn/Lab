@@ -265,8 +265,8 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.897);
-    box-shadow: 0 10px 10px -6px rgb(134, 133, 133);
+    background-color: rgba(255, 255, 255, 0.945);
+    box-shadow: 0 10px 10px -6px rgba(68, 66, 66, 0);
 }
 
 .sticky .main-nav { margin-top: 20px; }
