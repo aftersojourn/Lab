@@ -45,6 +45,8 @@
         width: 100%;
         margin: 0 0 4% 0;
     }
+ 
+    /* I dont want to display the nav in whis small screen and below*/
     .main-nav { display: none;}
 
     h1 { font-size: 180%; }
