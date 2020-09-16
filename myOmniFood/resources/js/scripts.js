@@ -8,6 +8,8 @@ $(document).ready(function() {
             $('nav').removeClass();
         }
     }, {
-            offset: '25%'
+            /* 25% of the current section and can also be changed to pixel. */
+           /* offset: '25%'   */
+            offset: '70px'   
           })
 });
