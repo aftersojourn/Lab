@@ -221,7 +221,7 @@ header {
     height: 50px;
     width: auto;
     float: left;
-    margin-top: 5px;
+    margin: 5px 0;
 }
 
 /* Main Navi */
