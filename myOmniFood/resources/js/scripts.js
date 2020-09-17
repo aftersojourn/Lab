@@ -65,5 +65,6 @@ $(document).ready(function() {
         }
     });
 
+    // Animations on Scroll //
 
 });
