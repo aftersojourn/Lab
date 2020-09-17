@@ -66,5 +66,9 @@ $(document).ready(function() {
     });
 
     // Animations on Scroll //
+    $('.js--animate-features').waypoint(function(direction) {
+        $('.js--animate-features').addClass('animate__fadeIn');
+    })
 
-});
+
+}); //$(document).ready(function()
