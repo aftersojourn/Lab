@@ -12,7 +12,7 @@ $(document).ready(function() {
         /* 25% of the current section and can also be changed to pixel. */
         /* offset: '25%'   */
             offset: '70px'   
-          })
+    })
 
     // Scroll to Buttons //
     $('.js--scroll-to-plans').click(function() {
@@ -66,8 +66,10 @@ $(document).ready(function() {
     });
 
     // Animations on Scroll //
-    $('.js--animate-features').waypoint(function(direction) {
-        $('.js--animate-features').addClass('animate__fadeIn');
+    $('.js--animate-section-feature').waypoint(function(direction) {
+        $('.js--animate-section-feature').addClass('animate__animated animate__fadeIn');
+    },{
+        offset: '50%'
     })
 
 
