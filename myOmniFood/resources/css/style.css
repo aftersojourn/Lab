@@ -614,3 +614,19 @@ footer li a:active {
     color: rgb(112, 111, 111);
 }
 
+/* ------------------------------------------------------------------ */
+/* Animations */
+/* ------------------------------------------------------------------ */
+
+.js--animate-section-feature {
+    /* display property will not work */
+    opacity: 0;
+}
+
+/* this is the AND SELECTOR FOR CSS */
+.animate__animated.animate__fadeIn {
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+    opacity: 1;
+}
